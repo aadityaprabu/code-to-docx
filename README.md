@@ -43,7 +43,7 @@ Open the project in **IDLE** or your favorite editor.
 ---
 
 ### 3. Add your code files
-- Place your code files inside `files/codes/`  
+- Place your code files inside `Files/Codes/`  
 - Example: `1.c`, `2.c`, `3.c` … (any extension works, just keep them ordered and of the same type).  
 
 ![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/6.PNG)
@@ -51,7 +51,7 @@ Open the project in **IDLE** or your favorite editor.
 ---
 
 ### 4. Add your output images
-- Place your output screenshots inside `files/images/`  
+- Place your output screenshots inside `Files/Images/`  
 - Example: `1.png`, `2.png`, `3.png` … (all images should be the same type).  
 
 ![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/5.PNG)  
@@ -70,7 +70,7 @@ python automator.py
 ---
 
 ### 6. Get your Word document
-- After running, check the `documents/` folder.  
+- After running, check the `Documents/` folder.  
 - You’ll find the compiled `.docx` file there.  
 
 ![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/11.PNG)  
@@ -83,18 +83,18 @@ python automator.py
 ## 📷 Example File Structure
 
 ```
-files/
- ├── codes/
+Files/
+ ├── Codes/
  │   ├── 1.c
  │   ├── 2.c
  │   └── 3.c
- └── images/
+ └── Images/
      ├── 1.png
      ├── 2.png
      └── 3.png
 ```
 
-Output in `documents/`:  
+Output in `Documents/`:  
 ```
 assignment.docx
 ```
