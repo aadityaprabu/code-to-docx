@@ -1,54 +1,118 @@
-# Code_n_Ouput_to_docx
+# code-to-docx
 
-Update: I HAVE ADDED AN OPTION TO MAKE DOCUMENT WITHOUT CODES CHECK IT OUT !!! 
+A simple tool to automatically compile your source code and output screenshots into a single Word document.  
+Perfect for creating assignment reports, documentation, or submissions with minimal effort.
 
+Note: Previous repo name was Code_n_Output_to_docx
+---
 
+## ✨ Features
+- Combine source code and corresponding output images into a `.docx` file.  
+- Supports multiple programming languages (as long as all files are of the same type).  
+- Option to generate a document **with or without code**.  
+- Easy folder-based organization.
 
-You can use this to compile the code and output images into a word doc for assignment purposes <br/>
-Basic requirements: <br/> <br/> 
-    Python 3.7 or 3.8 <br/>
-    python-docx module should be installed <br/>
-    =>To install python-docx module use this command on the terminal "pip install python-docx" <br/>
-    ![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/1.PNG)
-    
-How to use the script: <br/>
+---
 
-Step one <br/>
-clone the repository <br/>
+## 📦 Requirements
+- **Python** 3.7 or 3.8  
+- **python-docx** module  
 
-Step two <br/>
-open the src code in idle or your fav editor <br/>
+Install dependency:  
+```bash
+pip install python-docx
+```
 
-Step three <br/>
-store the codes in the files/codes folder in correct order like 1.c , 2.c , 3.c ..... n.c (any language but of same type or even txt but without the " . " period symbol) 
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/3.PNG)
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/6.PNG)
-<br/>
+---
 
-Step four  <br/>
-store the images in the files/images folder in correct order like 1.png , 2.png , 3.png (any image format but of same type but without the " . " period symbol) <br/>
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/5.PNG)
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/7.PNG)
-<br/>
-Step five 
-<br/>
-locate and now run the script automator.py <br/>
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/9.PNG)
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/8.PNG)
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/10.PNG)
-<br/>
-Step six <br/>
-check documents folder you will get the compiled word doc there <br/>
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/11.PNG)
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/12.PNG)
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/13.PNG)
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/14.PNG)
-<br/>
-If your code ran successfully then your output be like this.....<br/>
+## 🚀 Usage (Step by Step with Screenshots)
 
-Output:<br/>
+### 1. Clone the repository
+```bash
+git clone https://github.com/aadityaprabu/code-to-docx.git
+cd code-to-docx
+```
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/1.PNG)
 
-![](https://github.com/Aadityaprabu002/Code_n_Ouput_to_docx/blob/main/Automator/Instruction/Images/10.PNG)
+---
 
-<br/><br/><br/>
+### 2. Open the source code
+Open the project in **IDLE** or your favorite editor.  
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/3.PNG)
 
+---
+
+### 3. Add your code files
+- Place your code files inside `files/codes/`  
+- Example: `1.c`, `2.c`, `3.c` … (any extension works, just keep them ordered and of the same type).  
+
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/6.PNG)
+
+---
+
+### 4. Add your output images
+- Place your output screenshots inside `files/images/`  
+- Example: `1.png`, `2.png`, `3.png` … (all images should be the same type).  
+
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/5.PNG)  
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/7.PNG)
+
+---
+
+### 5. Run the script
+Locate and run the script:
+```bash
+python automator.py
+```
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/9.PNG)  
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/8.PNG)
+
+---
+
+### 6. Get your Word document
+- After running, check the `documents/` folder.  
+- You’ll find the compiled `.docx` file there.  
+
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/11.PNG)  
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/12.PNG)  
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/13.PNG)  
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/14.PNG)
+
+---
+
+## 📷 Example File Structure
+
+```
+files/
+ ├── codes/
+ │   ├── 1.c
+ │   ├── 2.c
+ │   └── 3.c
+ └── images/
+     ├── 1.png
+     ├── 2.png
+     └── 3.png
+```
+
+Output in `documents/`:  
+```
+assignment.docx
+```
+
+---
+
+## 📝 Sample Output
+
+If everything runs correctly, your output Word file will look like this:  
+
+![](https://github.com/aadityaprabu/code-to-docx/blob/main/Automator/Instruction/Images/10.PNG)
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
