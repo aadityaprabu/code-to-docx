@@ -3,9 +3,9 @@ import docx
 import os
 from docx.shared import Inches
 
-codeFilePath = '../Files/Codes/'
-imageFilePath = '../Files/Images/'
-docpath = '../Documents/'
+codeFilePath = '../files/codes/'
+imageFilePath = '../files/images/'
+docpath = '../documents/'
 if (not os.path.isdir(docpath)):
     os.mkdir(docpath)
 
